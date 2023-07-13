@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suiteTest">
+    <test name="param">
+
+        <parameter name="name" value="李志恒"></parameter>
+        <parameter name="age" value="21"></parameter>
+
+        <classes>
+            <class name="com.course.testng.paramter.ParamterTest"></class>
+        </classes>
+
+    </test>
+</suite>
